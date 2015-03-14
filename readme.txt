@@ -31,7 +31,9 @@ Options:
   'height' => '350',
   'align' => 'center'
 
+Demo:
 
+http://www.luciaintelisano.it/live-flight-radar-a-wordpress-plugin/
 
 == Installation ==
 
@@ -70,4 +72,6 @@ Initial Release. Basic features only.
 It will retrieve radar plots from FlightRadar24 and embed an iframe on your website. You can call the plot by either latitude and longitude, or by just referencing an ICAO/IATA airport code.
 
 **Where can I go for support?**
+
+http://www.luciaintelisano.it/live-flight-radar-a-wordpress-plugin/
 
