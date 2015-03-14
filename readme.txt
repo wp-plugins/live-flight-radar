@@ -1,4 +1,4 @@
-=== Flight Radar ===
+===Live Flight Radar ===
 
 Contributors: Lucia Intelisano
 Donate link: http://www.luciaintelisano.it/
@@ -13,29 +13,39 @@ Generate FlightRadar24 Radar plots with the use of shortcode.
 
 == Description ==
 
-**Flight Radar** is plugin that simply generates FlightRadar24.com radar plots on your posts or pages with shortcode. 
+**Live Flight Radar** is plugin that simply generates FlightRadar24.com radar plots on your posts or pages with shortcode. 
 
 Features include:
 
-* Numerous shortcode options (list, random, date, formatting ect).
+You can choose the name of airport.
 
-The initial purpose was to provide an easy means for people to provide radar plots on [Flight.org](http://www.flight.org/ "Flight"). Featrues are very basic but will be built upon in future releases.
+Usage
+Shortcode:  [liveflightradar]
 
- 
+Options: 
+  ‘code’=‘fci',
+  'lat' => '',
+  'lng' => '',
+  'zoom' => '8',
+  'width' => '100%',
+  'height' => '350',
+  'align' => 'center'
+
+
 
 == Installation ==
 
 **To install the plugin manually:**
 
 1. Extract the contents of the archive (zip file)
-2. Upload the flight-radar folder to your '/wp-content/plugins' folder
+2. Upload the live-flight-radar folder to your '/wp-content/plugins' folder
 3. Activate the plugin through the Plugins section in your WordPress admin panel.
 
 **Upload via the WordPress administration panel:**
 
 1. Click on "Plugins" in the left panel, then click on "Add new".
 2. You should now see the Install Plugins page. Click on "Upload".
-3. Click on Browse and select your "flight-radar.zip" file.
+3. Click on Browse and select your "live-flight-radar.zip" file.
 4. Click on "Install now", activate it and you're done!
 
 == Screenshots ==
@@ -44,7 +54,7 @@ The initial purpose was to provide an easy means for people to provide radar plo
 
 == Changelog ==
 
-= 1.0 =
+= 1.0.0 =
 
 * Initial Release. Basic features only.
 
